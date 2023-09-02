@@ -17,7 +17,7 @@ module.exports = {
         mono: ["JetBrains Mono", ...defaultTheme.fontFamily.mono]
       },
       backgroundImage: {
-        "pattern": "url(/assets/images/pattern.svg)"
+        "pattern": "url(/assets/images/pattern.png)"
       },
       typography: {
         DEFAULT: {
