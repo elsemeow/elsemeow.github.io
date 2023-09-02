@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --scrollbar: #0369a1;
+    --scrollbar-bg: #1e293b;
+    --scroll-progress: 0;
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url("/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url("/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 100 800;
+    font-display: swap;
+    src: url("/assets/fonts/jetbrains-mono/JetBrainsMono-VariableFont_wght.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "JetBrains Mono";
+    font-style: italic;
+    font-weight: 100 800;
+    font-display: swap;
+    src: url("/assets/fonts/jetbrains-mono/JetBrainsMono-Italic-VariableFont_wght.ttf") format("truetype");
+  }
+
+  ::-moz-selection {
+    @apply bg-sky-500
+           text-white;
+  }
+  
+  ::selection {
+    @apply bg-sky-500
+           text-white;
+  }
+
+  body::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar) var(--scrollbar-bg);
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbar-bg);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    @apply rounded-md;
+    background-color: var(--scrollbar);
+    border: 3px solid var(--scrollbar-bg);
+  }
+}
+
+@layer utilities {
+  .skip-ink-none {
+    text-decoration-skip-ink: none;
+  }
+
+  .text-fill-transparent {
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.prose > *:first-child > * > img,
+.prose > *:first-child > img {
+  @apply mt-0;
+}
+
+.prose :where(code):not(:where([class~=not-prose] *)):before,
+.prose :where(code):not(:where([class~=not-prose] *)):after {
+  @apply content-[""];
+}

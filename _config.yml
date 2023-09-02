@@ -1,0 +1,26 @@
+domain: elsemeow.github.io
+url: https://elsemeow.github.io
+baseurl: ""
+
+author: Maxim Belov
+email: meowpm@proton.me
+title: Elsemeow's Vault
+description: >-
+  Welcome to my personal website! I'm a front-end web developer and UI designer.
+  My passion is gamedev and pixel art.
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - node_modules/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
+  - README.md
+  - LICENSE
+  - assets/css/tailwind-src.css

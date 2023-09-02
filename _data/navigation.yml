@@ -1,0 +1,8 @@
+logo_color: 38BDF8
+
+items:
+  - title: About
+    url: /
+
+  - title: Blog
+    url: /blog.html
