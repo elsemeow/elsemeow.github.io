@@ -8,7 +8,7 @@ summary: The artwork for the Vengeance III album cover.
 
 ![Vengeance III by Starfounder](/assets/images/blog/2022-12-26-cover-art-for-starfounder/img-01.png){:loading="lazy"}
 
-The artwork for the [Vengeance III](https://starfounder.bandcamp.com/album/vengeance-iii){:target="_blank"} album cover took about 2 days to complete. [The face on the cover](#ai-generated-image) was AI-generated and post-processed using various filters and shaders.
+The artwork for the [Vengeance III](https://starfounder.bandcamp.com/album/vengeance-iii){:target="_blank"} album cover took about 2 days to complete. [The face on the cover](#ai-generated-image) was AI-generated and post-processed using various filters and shaders. The barcode at the bottom of the cover contains the string `ELSEMEOW`. The QR code leads to the Starfounder's Bandcamp page.
 
 ## References
 
