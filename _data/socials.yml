@@ -12,8 +12,8 @@
 
 # twitch [3]
 - username: elsemeow
-  show: true
+  show: false
 
 # telegram [4]
 - username: elsemeow
-  show: true
+  show: false

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Sprites for Hatone
-summary: These sprites were drawn at different times at the request of my friend Devilwerg.
+summary: These sprites were drawn at different times upon the request of my friend Devilwerg.
 ---
 
-Sprites for [Hatone](https://store.steampowered.com/app/2478860/Hatone/){:target="_blank"} game were drawn at different times at the request of my friend Devilwerg.
+Sprites for the [Hatone](https://store.steampowered.com/app/2478860/Hatone/){:target="_blank"} game were drawn at various times per the request of my friend Devilwerg.
 
 ## Retrospective
 
@@ -20,7 +20,7 @@ Final result.
 
 Reference.
 
-### Final boss
+### Final Boss
 
 *October 30, 2022*
 
@@ -30,7 +30,7 @@ Final result.
 
 ![Comparsion with reference](/assets/images/blog/2023-07-05-sprites-for-hatone/img-04.png){:loading="lazy"}
 
-Comparsion with reference.
+Comparison with a reference.
 
 ### "Rustly"
 
@@ -38,13 +38,13 @@ Comparsion with reference.
 
 ![Comparsion with reference](/assets/images/blog/2023-07-05-sprites-for-hatone/img-05.png){:loading="lazy"}
 
-Comparsion with reference.
+Comparison with a reference.
 
 ![My sketches](/assets/images/blog/2023-07-05-sprites-for-hatone/img-06.jpg){:loading="lazy"}
 
 My sketches.
 
-### Top-bottom border tiles
+### Top-Bottom Border Tiles
 
 *October 10, 2020*
 

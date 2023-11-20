@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Redesign of my personal website
-summary: Built using GitHub Pages, Jekyll, and Tailwind CSS.
+title: Redesign of My Personal Website
+summary: Was built using GitHub Pages, Jekyll, and Tailwind CSS.
 ---
 
-I redesigned my personal website. Built using [GitHub Pages](https://pages.github.com){:target="_blank"}, [Jekyll](https://jekyllrb.com){:target="_blank"}, and [Tailwind CSS](https://tailwindcss.com){:target="_blank"}. Leaf patterns for the page loading indicator I took from a previous version of my site.
+I redesigned my personal website, building it using [GitHub Pages](https://pages.github.com){:target="_blank"}, [Jekyll](https://jekyllrb.com){:target="_blank"} and [Tailwind CSS](https://tailwindcss.com){:target="_blank"}. The leaf patterns for the page loading indicator were taken from a previous version of my site.
 
 ## Retrospection
 
@@ -12,10 +12,10 @@ I redesigned my personal website. Built using [GitHub Pages](https://pages.githu
 
 ![elsemeow.glitch.me](/assets/images/blog/2023-08-30-redesign-of-my-personal-website/img-01.png){:loading="lazy"}
 
-The 2nd version of the site was published on the `elsemeow.glitch.me` subdomain. Created using [Vue.js](https://vuejs.org){:target="_blank"} and hosted using [Glitch](https://glitch.com){:target="_blank"}. I converted to [svg "flying over the island house"](https://codepen.io/elsemeow/full/VwbdvGP){:target="_blank"} and decided to use leaf patterns in the design.
+The second version of the site was published on the `elsemeow.glitch.me` subdomain, created using [Vue.js](https://vuejs.org){:target="_blank"} and hosted via [Glitch](https://glitch.com){:target="_blank"}. I [converted "House flying over the island" to SVG](https://codepen.io/elsemeow/full/VwbdvGP){:target="_blank"} format and decided to incorporate leaf patterns into the design.
 
 ### June 19, 2020
 
 ![elsemeow.art](/assets/images/blog/2023-08-30-redesign-of-my-personal-website/img-02.png){:loading="lazy"}
 
-The 1st version of the site was published on the `elsemeow.art` domain. Created using [Vue.js](https://vuejs.org){:target="_blank"}. At the same time, I drew a ["flying over the island house"](https://codepen.io/elsemeow/full/gOwYMNR){:target="_blank"}. This concept was added to [spark collection](https://codepen.io/spark/210){:target="_blank"} by CodePen.
+The first version of the site was published on the `elsemeow.art` domain, created using Vue.js. Concurrently, I drew an illustration titled "House flying over the island", which was later added to the [Spark Collection](https://codepen.io/spark/210){:target="_blank"} on CodePen.

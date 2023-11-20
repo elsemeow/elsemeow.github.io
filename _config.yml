@@ -3,11 +3,11 @@ url: https://elsemeow.github.io
 baseurl: ""
 
 author: Maxim Belov
-email: meowpm@proton.me
+email: yongyiiqq@mozmail.com
 title: Elsemeow's Vault
 description: >-
-  Welcome to my personal website! I'm a front-end web developer and UI designer.
-  My passion is gamedev and pixel art.
+  Front-end developer and UI designer with a passion for indie game development,
+  pixel art, and design. Explore my work on my website.
 
 plugins:
   - jekyll-sitemap

@@ -1,29 +1,29 @@
 ---
 layout: post
-title: Cover art for Starfounder
-summary: The artwork for the Vengeance III album cover.
+title: Cover Art for Starfounder
+summary: The artwork for the cover of the Vengeance III album.
 ---
 
-## Final result
+## Final Result
 
 ![Vengeance III by Starfounder](/assets/images/blog/2022-12-26-cover-art-for-starfounder/img-01.png){:loading="lazy"}
 
-The artwork for the [Vengeance III](https://starfounder.bandcamp.com/album/vengeance-iii){:target="_blank"} album cover took about 2 days to complete. [The face on the cover](#ai-generated-image) was AI-generated and post-processed using various filters and shaders. The barcode at the bottom of the cover contains the string `ELSEMEOW`. The QR code leads to the Starfounder's Bandcamp page.
+The artwork for the [Vengeance III](https://starfounder.bandcamp.com/album/vengeance-iii){:target="_blank"} album cover was a 2-day endeavor. The [face](#ai-generated-image) on the cover was generated with AI and refined through the application of diverse filters and shaders. The barcode at the bottom of the cover features the text `ELSEMEOW`. The QR code links to Starfounder's Bandcamp page.
 
 ## References
 
 ![References](/assets/images/blog/2022-12-26-cover-art-for-starfounder/img-02.png){:loading="lazy"}
 
-I began creating the cover by selecting references.
+I initiated the cover creation process by selecting references.
 
-## AI-generated image
+## AI-Generated Image
 
 ![AI-generated image](/assets/images/blog/2022-12-26-cover-art-for-starfounder/img-03.jpg){:loading="lazy"}
 
-I had to crop and apply various effects to the original image to hide its defects.
+I had to crop and apply various effects to the original image to conceal its imperfections.
 
-## 3 cover variants
+## 3 Cover Variations
 
-![3 cover variants](/assets/images/blog/2022-12-26-cover-art-for-starfounder/img-04.png){:loading="lazy"}
+![3 cover variations](/assets/images/blog/2022-12-26-cover-art-for-starfounder/img-04.png){:loading="lazy"}
 
-Starfounder chose the 2nd option. Where I used as a background a audio waveform visualization of the first seconds of the album.
+Starfounder opted for the second option, where I utilized an audio waveform visualization of the initial seconds of the album as the background.

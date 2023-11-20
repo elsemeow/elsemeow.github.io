@@ -1,20 +1,24 @@
 ---
 layout: post
-title: Dice mini-game for the Living and the Dead II
-summary: "Script for global addon for the TES 4: Oblivion."
+title: Dice Mini-Game for The Living and the Dead II
+summary: "Script for a global add-on for TES 4: Oblivion."
 ---
 
-I'm the author of the dice mini-game, which, with the help of [Uncle Ju](https://www.youtube.com/user/JulianosOfTamriel/videos){:target="_blank"} and a team of masters from [www.tamriel.ru](http://tamriel.ru/){:target="_blank"}, became part of the global addon for the TES 4: Oblivion [The Living And The Dead](https://www.nexusmods.com/oblivion/mods/48810){:target="_blank"} part two.
+ I created the dice mini-game, which, with the help of [Uncle Ju](https://www.youtube.com/user/JulianosOfTamriel/videos){:target="_blank"} and a talented team from [www.tamriel.ru](http://tamriel.ru/){:target="_blank"}, became a part of the extensive add-on for The Elder Scrolls IV: Oblivion - [The Living And The Dead II](https://www.nexusmods.com/oblivion/mods/48810){:target="_blank"}.
 
-It was my first experience of working in a team on a project like this.
+This was my first experience of collaborating with a team on a project of such scale.
 
 ## Demo
+
+Below, you can view a GIF image illustrating what was accomplished in the project:
 
 ![Dice mini-game](/assets/images/blog/2016-07-01-dice-mini-game-for-the-living-and-the-dead-ii/img-01.webp){:loading="lazy"}
 
 ## Scripts
 
-### NPC inventory update every 5 days
+### NPC Inventory Update Every 5 Days
+
+I developed a script to update NPC inventory every 5 days. Here's the script's source code below:
 
 ```vb
 scn a7DiceRefresh
@@ -42,7 +46,9 @@ begin gamemode
 end
 ```
 
-### Main logic source code
+### Main Logic Source Code
+
+Here is the main source code that embodies the core logic of the project:
 
 ```vb
 scn a7DiceRoll
