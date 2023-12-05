@@ -32,6 +32,8 @@ Final result.
 
 Comparison with a reference.
 
+Bonus: **[Google Docs document](https://docs.google.com/document/d/1TLp8rhSjkmKdLjQ-vw8gfJD0PW57OtyX2-Wsh4Z86Ro){:target="_blank"}**
+
 ### "Rustly"
 
 *November 3, 2020*
