@@ -8,7 +8,7 @@
 
 # youtube [2]
 - username: "@elsemeow"
-  show: false
+  show: true
 
 # twitch [3]
 - username: elsemeow
