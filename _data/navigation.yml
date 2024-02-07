@@ -4,5 +4,8 @@ items:
   - title: About
     url: /
 
+  - title: Portfolio
+    url: /portfolio.html
+
   - title: Blog
     url: /blog.html

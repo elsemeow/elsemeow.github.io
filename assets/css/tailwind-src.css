@@ -92,3 +92,32 @@
 .prose :where(code):not(:where([class~=not-prose] *)):after {
   @apply content-[""];
 }
+
+.cp_embed_iframe {
+  @apply w-full max-w-full h-auto aspect-1 sm:aspect-[4/3] md:aspect-[16/9];
+}
+
+.heading-line {
+  @apply overflow-hidden;
+}
+
+.heading-line > * {
+  @apply text-slate-500
+           lg:text-8xl
+           md:text-7xl
+           text-6xl
+           inline-block
+           relative;
+}
+
+.heading-line > *::after {
+  @apply content-[""]
+         absolute
+         left-full
+         top-1/2
+         w-[2000px]
+         ml-6
+         border-b
+         border-solid
+         border-b-slate-400;
+}
