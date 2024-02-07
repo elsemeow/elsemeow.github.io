@@ -99,7 +99,7 @@
     }
   }
 
-  const pageLoader = new PageLoader(document.getElementById("loader"), document.getElementById("main"), 600);
+  const pageLoader = new PageLoader(document.getElementById("loader"), document.getElementById("main"), 100);
 
   window.addEventListener("load", () => {
     new NavigationBackground(document.getElementById("navigation"), "slate-900", 0, 75);
