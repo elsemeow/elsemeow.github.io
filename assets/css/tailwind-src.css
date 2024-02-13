@@ -74,13 +74,8 @@
 }
 
 @layer utilities {
-  .skip-ink-none {
-    text-decoration-skip-ink: none;
-  }
-
-  .text-fill-transparent {
-    -webkit-text-fill-color: transparent;
-  }
+  .skip-ink-none { text-decoration-skip-ink: none; }
+  .text-fill-transparent { -webkit-text-fill-color: transparent; }
 }
 
 .prose > *:first-child > * > img,
@@ -94,7 +89,12 @@
 }
 
 .cp_embed_iframe {
-  @apply w-full max-w-full h-auto aspect-1 sm:aspect-[4/3] md:aspect-[16/9];
+  @apply w-full
+         max-w-full
+         h-auto
+         aspect-1
+         sm:aspect-[4/3]
+         md:aspect-[16/9];
 }
 
 .heading-line {
@@ -120,4 +120,13 @@
          border-b
          border-solid
          border-b-slate-400;
+}
+
+.animated-name {
+  @apply bg-leafs
+         bg-repeat
+         bg-[auto_150%]
+         bg-clip-text
+         animate-scroll;
+  -webkit-text-fill-color: transparent;
 }

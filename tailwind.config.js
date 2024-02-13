@@ -17,7 +17,8 @@ module.exports = {
         mono: ["JetBrains Mono", ...defaultTheme.fontFamily.mono]
       },
       backgroundImage: {
-        "pattern": "url(/assets/images/pattern.png)"
+        "pattern": "url(/assets/images/pattern.png)",
+        "leafs": "url(/assets/images/leafs.svg)"
       },
       typography: {
         DEFAULT: {
@@ -40,6 +41,15 @@ module.exports = {
             }
           }
         }
+      },
+      keyframes: {
+        scroll: {
+          "0%": { "background-position": "center 0" },
+          "100%": { "background-position": "center 300%" }
+        }
+      },
+      animation: {
+        scroll: "scroll 3s linear infinite",
       }
     }
   },
