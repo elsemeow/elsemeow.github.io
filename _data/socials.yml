@@ -10,10 +10,6 @@
 - username: "@elsemeow"
   show: true
 
-# twitch [3]
-- username: elsemeow
-  show: false
-
-# telegram [4]
+# telegram [3]
 - username: elsemeow
   show: false

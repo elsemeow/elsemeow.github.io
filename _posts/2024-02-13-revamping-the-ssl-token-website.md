@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Revamping the SSL Token Website
-summary: Free Design and Frontend Transformation with vite-mpa-starter
+summary: Free design and frontend transformation with vite-mpa-starter
 ---
 
 Recently, I stumbled upon a website and realized it was a great opportunity to enrich my portfolio and once again test my blueprint for rapid frontend development with [vite-mpa-starter](https://github.com/elsemeow/vite-mpa-starter){:target="_blank"}.

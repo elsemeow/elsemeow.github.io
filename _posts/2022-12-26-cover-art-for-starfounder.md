@@ -27,3 +27,9 @@ I had to crop and apply various effects to the original image to conceal its imp
 ![3 cover variations](/assets/images/blog/2022-12-26-cover-art-for-starfounder/img-04.png){:loading="lazy"}
 
 Starfounder opted for the second option, where I utilized an audio waveform visualization of the initial seconds of the album as the background.
+
+## Client Review
+
+> The work was completed with high quality and speed, offering a good level of variety. The designer was responsive and maintained a casual atmosphere.
+
+*Starfounder*
