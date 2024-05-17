@@ -8,6 +8,9 @@ title: Elsemeow's Vault
 description: >-
   Coder and designer with a passion for indie game development
   and digital art. Explore my work on my website.
+cv:
+  title: CV (Russian)
+  path: /assets/pdf/belov-cv.pdf
 
 plugins:
   - jekyll-sitemap
