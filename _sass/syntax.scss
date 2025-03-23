@@ -1,0 +1,49 @@
+.highlight {
+  & pre {
+    color: #e2e8f0; // slate-200
+    background-color: #1e293b; // slate-800
+    box-shadow: 0 0 0 1px #343b4f;
+    font-size: 15px;
+    line-height: 1.715;
+    padding: 1rem;
+    scrollbar-color: var(--scrollbar) var(--scrollbar-bg);
+    border: 3px solid var(--scrollbar-bg);
+
+    & code {
+      border: none;
+    }
+
+    &::-webkit-scrollbar {
+      width: 11px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: var(--scrollbar-bg);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--scrollbar);
+      border: 3px solid var(--scrollbar-bg);
+    }
+  }
+
+  & .c, & .c1, & .cm, & .cp, & .cs {
+    color: #94a3b8; // slate-400
+  }
+
+  & .p {
+    color: #64748b; // slate-500
+  }
+
+  & .kd, & .nt {
+    color: #f472b6; // pink-400
+  }
+
+  & .k, & .s, & .nl {
+    color: #7dd3fc; // sky-300
+  }
+
+  & .o {
+    color: #99f6e4; // teal-200
+  }
+}

@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --scrollbar: #0369a1;
+    --scrollbar-bg: #1e293b;
+    --scroll-progress: 0;
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url("/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url("/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 100 800;
+    font-display: swap;
+    src: url("/assets/fonts/jetbrains-mono/JetBrainsMono-VariableFont_wght.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "JetBrains Mono";
+    font-style: italic;
+    font-weight: 100 800;
+    font-display: swap;
+    src: url("/assets/fonts/jetbrains-mono/JetBrainsMono-Italic-VariableFont_wght.ttf") format("truetype");
+  }
+
+  ::-moz-selection {
+    @apply bg-sky-500
+           text-white;
+  }
+  
+  ::selection {
+    @apply bg-sky-500
+           text-white;
+  }
+
+  body::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar) var(--scrollbar-bg);
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbar-bg);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    @apply rounded-md;
+    background-color: var(--scrollbar);
+    border: 3px solid var(--scrollbar-bg);
+  }
+}
+
+@layer utilities {
+  .skip-ink-none { text-decoration-skip-ink: none; }
+  .text-fill-transparent { -webkit-text-fill-color: transparent; }
+}
+
+.prose > *:first-child > * > img,
+.prose > *:first-child > img {
+  @apply mt-0;
+}
+
+.prose :where(code):not(:where([class~=not-prose] *)):before,
+.prose :where(code):not(:where([class~=not-prose] *)):after {
+  @apply content-[""];
+}
+
+.cp_embed_iframe {
+  @apply w-full
+         max-w-full
+         h-auto
+         aspect-1
+         sm:aspect-[4/3]
+         md:aspect-[16/9];
+}
+
+.heading-line {
+  @apply overflow-hidden;
+}
+
+.heading-line > * {
+  @apply text-slate-500/70
+           lg:text-8xl
+           md:text-7xl
+           text-6xl
+           inline-block
+           relative;
+}
+
+.heading-line > *::after {
+  @apply content-[""]
+         absolute
+         left-full
+         top-1/2
+         w-[2000px]
+         ml-6
+         border-b
+         border-solid
+         border-b-slate-500/30;
+}
+
+.animated-name {
+  @apply bg-leafs
+         bg-repeat
+         bg-[auto_150%]
+         bg-clip-text
+         animate-scroll;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight-white\/5 {
+  box-shadow: inset 0 1px 0 0 #ffffff0d;
+}

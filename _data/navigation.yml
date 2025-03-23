@@ -1,0 +1,11 @@
+logo_color: 38BDF8
+
+items:
+  - title: About
+    url: /
+
+  - title: Showcase
+    url: /showcase.html
+
+  - title: Blog
+    url: /blog.html

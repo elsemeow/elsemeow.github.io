@@ -1,0 +1,37 @@
+---
+layout: default
+title: About
+---
+
+{% include navigation.html %}
+<div class="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 xl:px-12 sm:flex sm:flex-col sm:justify-center sm:pt-16">
+  <main class="sm:flex sm:items-center gap-x-8 lg:gap-x-16 transition-all duration-300" id="main">
+    <div class="sm:w-1/3 -mx-4 sm:mx-0 mb-8 sm:mb-0">
+      <div class="relative aspect-2 sm:aspect-[3/6] md:aspect-[3/5] lg:aspect-[3/4]" id="photo_move">
+        <img class="object-[0_25%] sm:object-center object-cover h-full w-full sm:rounded-2xl bg-white" src="/assets/images/photo.png" alt="Photo" />
+      </div>
+    </div>
+    <div class="sm:w-2/3">
+      <p class="leading-7 font-semibold text-sky-500">Hello, my name is</p>
+      <h1 class="text-white font-extrabold text-4xl sm:text-5xl lg:text-7xl tracking-tight mt-2 lg:mt-4 animated-name">
+        {{ site.author }}
+      </h1>
+      <p class="text-slate-300 mt-2 lg:mt-4">
+        <svg class="inline-block w-5 sm:w-6" viewBox="0 0 24 24">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M5.65567 19.5862C4.24783 19.449 3.11374 18.4132 2.9391 17.1016C2.71958 15.4532 2.5 13.7471 2.5 12C2.5 10.7144 2.6189 9.45101 2.76917 8.21643C2.80149 7.95092 3.13343 7.82294 3.35815 7.98839L9.61642 12.5956C11.0144 13.6248 12.9858 13.6248 14.3837 12.5956L20.6419 7.9885C20.8666 7.82305 21.1985 7.95103 21.2309 8.21654C21.3811 9.45107 21.5 10.7144 21.5 12C21.5 13.7471 21.2804 15.4532 21.0609 17.1016C20.8862 18.4132 19.7521 19.449 18.3443 19.5862C18.2791 19.5926 18.2138 19.5989 18.1485 19.6054C16.1627 19.7993 14.1063 20 12 20C9.89365 20 7.83731 19.7993 5.85154 19.6054C5.78618 19.5989 5.72089 19.5926 5.65567 19.5862ZM20.4773 5.54864C20.5875 5.68627 20.548 5.87778 20.4036 5.98419L13.2486 11.2515C12.5164 11.7906 11.4838 11.7906 10.7515 11.2515L3.59653 5.98412C3.45197 5.8777 3.4125 5.68619 3.52278 5.54856C4.02192 4.92559 4.78663 4.49851 5.65567 4.41376C5.72087 4.4074 5.78615 4.40103 5.85152 4.39465C7.83729 4.20076 9.89364 4 12 4C14.1063 4 16.1627 4.20076 18.1485 4.39465C18.2138 4.40103 18.2791 4.4074 18.3443 4.41376C19.2134 4.49851 19.9781 4.92563 20.4773 5.54864Z" fill="currentColor" />
+        </svg>
+        <a class="font-medium sm:text-lg underline decoration-sky-400 underline-offset-4 skip-ink-none hover:decoration-2" href="mailto:{{ site.email }}">
+          {{ site.email }}
+        </a>
+      </p>
+      <p class="lg:text-lg text-slate-400 mt-6 lg:mt-8">
+        I'm a creative entrepreneur: building smart business logic,
+        coding cool stuff, leading teams, designing visuals, and animating ideas
+      </p>
+      <div class="flex gap-x-4 lg:gap-x-6 mt-6 lg:mt-10">
+        {% include socials.html %}
+      </div>
+    </div>
+  </main>
+</div>
+{% include footer.html %}

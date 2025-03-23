@@ -1,0 +1,26 @@
+domain: elsemeow.github.io
+url: https://elsemeow.github.io
+baseurl: ""
+
+author: Maksim
+email: yongyiiqq@mozmail.com
+title: Elsemeow's Vault
+description: >-
+  I'm a creative entrepreneur: building smart business logic,
+  coding cool stuff, leading teams, designing visuals, and animating ideas
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - node_modules/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
+  - README.md
+  - LICENSE
+  - assets/css/tailwind-src.css
